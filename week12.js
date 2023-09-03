@@ -20,7 +20,7 @@ class Player {
 }
 
 class GroupService {
-    static url = "https://64f42331932537f4051a219d.mockapi.io";
+    //static url = "https://64f42331932537f4051a219d.mockapi.io";
     // fetch();
 
     static getAllGroups() {
