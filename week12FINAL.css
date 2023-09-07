@@ -1,0 +1,12 @@
+.btn-info {
+    color: white;
+}
+
+.btn:hover, .bi:hover {
+    color: black;
+}
+
+div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

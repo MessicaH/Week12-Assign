@@ -11,6 +11,11 @@ div, input, p, h2, h3, button {
     background-image: none;
 }
 
+div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 .div-whiteout {
     background-color: white;
     background-image: none;
@@ -51,13 +56,32 @@ i {
     font-weight: bold;
 }
 
-.btn-create {
+.btn-create, .delete-pc {
     background-color: slateblue;
     color: white;
 }
 
-.btn-create:hover {
+.btn-create:hover, .btn-primary:hover, .btn-info:hover, .delete-pc:hover {
     background-color: aquamarine;
     color: slateblue;
     font-weight: bold;
+    border-color: slateblue;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.btn-info {
+    color: white;
+}
+
+.bi:hover {
+    color: black;
+}
+
+input {
+    background-color: bisque;
+}
+
+.delete-icon {
+    text-align: center;
 }

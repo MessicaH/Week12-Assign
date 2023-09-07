@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 12 Lab</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/week12.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+
+  <body class="container">
+    <div class="shadow-box">
+        <h1 class="div-whiteout section-heading-light">My Campaigns Organizer<i class="bi bi-journals"></i></h1>
+    </div>
+
+    <!--
+    <div id="new-group" class="my-3 shadow-box">
+      <h2>Add an Adventuring Group<i class="bi bi-people"></i></h2>
+      <label for="new-groupname">New Adventuring Group Name: </label>
+      <input type="text" id="new-groupname"> <br>
+      <button id="create-new-group" class="btn btn-create">Create New Group<i class="bi bi-magic"></i></button>
+  </div>
+
+--This is the Current Groups section. This could be converted into cards for each group, display # of players, and name.
+  Then, have Delete and Update options, as well?--
+  <div id="app" class="shadow-box">
+    <h3>Current Groups<i class="bi bi-people-fill"></i></h3>
+--Used JQuery to add new elements to DOM for new groups in week12.js--
+  </div>
+--We could add in a second operation bank for adding/removing groups, but how to get this to also update Player table? And
+how to handle the orphaned Players from a deleted Group?--
+-->
+
+<!--Add a new player-->
+  <div class="shadow-box">
+    <form class="form-control">
+      <h4>Add New Player Character (PC) to Adventuring Group<i class="bi bi-person-vcard"></i></h4>
+      <div>
+        <label for="playername">Player Name:</label> <!--Previously "fullName" for field value-->
+        <input id="playername" placeholder="Eddie"/>
+      </div>
+      <div>
+        <label for="newCharname">Character Name:</label> <!--Previously "newAssignment" for field value-->
+        <input id="newCharname" placeholder="Jackmerius Tacktheratrix"/>
+      </div>
+      <div>
+        <label for="newCharclara">Character Race/Origin & Class:</label> <!--new data set/value for API roster-->
+        <input id="newCharclara" placeholder="Dwarf Barbarian, etc."/>
+      </div>
+      <button class="btn btn-primary" id="submitCharacter">Add New Player</button> <!--previously "submitStudent"-->
+    </form>
+  </div>
+
+<!--Update a Player's information for a Group-->
+  <div class="shadow-box">
+    <form class="form-control">
+      <h4>Update Player (PC) Information<i class="bi bi-person-gear"></i></h4>
+      <div>
+        <label for="updatePlayerName">Player Name:</label>
+        <input id="updatePlayerName"/>
+      </div>
+      <div>
+        <label for="updateCharname">Character Name:</label> <!--Charname instead of Student ID-->
+        <input id="updateCharname"/>
+      </div>
+      <div>
+        <label for="updateCharclara">Character Race & Class:</label> <!--previously "updateAssignment" and Research Topic -->
+        <input id="updateCharclara"/>
+      </div>
+      <button id="updatePlayer" class="btn btn-info">Submit Changes</button>
+    </form>
+  </div>
+
+<!--Table to display information being added/updated/removed-->  
+  <div class="shadow-box">
+    <table class="table table-light table-striped table-bordered table-hover">
+      <tbody>
+        <thead>
+          <th>Player Name</th>
+          <th>Character Name</th>
+          <th>Character Race & Class</th>
+          <th class="delete-icon">Delete Player</th>
+        </thead>
+      </tbody>
+    </table>
+  </div>
+
+    <!-- ALL OF YOUR JQUERY/BOOTSTRAP/SCRIPT SETUP ARE BELOW HERE. 
+  WE USE CDN'S (content delivery network) INSTEAD OF NODE_MODULES -->
+
+    <!-- Jquery CDN  -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper CDN: For dropdowns, popovers, tooltips, etc-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Script CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Our script -->
+    <script src="./week12FINAL.js"></script>
+  </body>
+</html>

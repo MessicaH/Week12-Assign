@@ -1,72 +1,72 @@
 [
     {
-     "player": "Lauren Rowe",
+     "playername": "Lauren Rowe",
      "charname": "Elowyn Spellweaver",
      "charclara": "Elf Cleric",
-     "group": "Silverwind Company",
+     "groupname": "Silverwind Company",
      "id": "1"
     },
     {
-     "player": "Shawn Rippin",
+     "playername": "Shawn Rippin",
      "charname": "Aldric Arcanemage",
      "charclara": "Human Wizard",
-     "group": "Silverwind Company",
+     "groupname": "Silverwind Company",
      "id": "2"
     },
     {
-     "player": "William Senger",
+     "playername": "William Senger",
      "charname": "Vesper Nightfox",
      "charclara": "Dwarf Rogue",
-     "group": "Silverwind Company",
+     "groupname": "Silverwind Company",
      "id": "3"
     },
     {
-     "player": "Wayne Hickle",
+     "playername": "Wayne Hickle",
      "charname": "Seraphina Quickfoot",
      "charclara": "Halfling Barbarian",
-     "group": "Silverwind Company",
+     "groupname": "Silverwind Company",
      "id": "4"
     },
     {
-     "player": "Ben D'Amore",
+     "playername": "Ben D'Amore",
      "charname": "Zephyrion Spellbinder",
      "charclara": "Half-Elf Paladin",
-     "group": "Silverwind Company",
+     "groupname": "Silverwind Company",
      "id": "5"
     },
     {
-     "player": "Dianne Bins",
+     "playername": "Dianne Bins",
      "charname": "Hilda Goldhammer",
      "charclara": "Half-Orc Bard",
-     "group": "Thornblade Alliance",
+     "groupname": "Thornblade Alliance",
      "id": "6"
     },
     {
-     "player": "Lowell Gutkowski",
+     "playername": "Lowell Gutkowski",
      "charname": "Wren Underhill",
      "charclara": "Tiefling Ranger",
-     "group": "Thornblade Alliance",
+     "groupname": "Thornblade Alliance",
      "id": "7"
     },
     {
-     "player": "Whitney Weissnat",
+     "playername": "Whitney Weissnat",
      "charname": "Branwyn Riverleaf",
      "charclara": "Gnome Sorcerer",
-     "group": "Thornblade Alliance",
+     "groupname": "Thornblade Alliance",
      "id": "8"
     },
     {
-     "player": "Lola Donnelly",
+     "playername": "Lola Donnelly",
      "charname": "Grulmok Bonecrusher",
      "charclara": "Dragonborn Warlock",
-     "group": "Ironclad Guardians",
+     "groupname": "Ironclad Guardians",
      "id": "9"
     },
     {
-     "player": "Bryant Durgan",
+     "playername": "Bryant Durgan",
      "charname": "Cedric Blackthorn",
      "charclara": "Aasimar Druid",
-     "group": "Ironclad Guardians",
+     "groupname": "Ironclad Guardians",
      "id": "10"
     }
    ]
